@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT AWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--=============== JS ===============-->
+    <script src="script.js" defer></script>
+
+    <title>Recipes</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <!--=============== MEAL SEARCH ===============-->
+
+        <div class="meal-search">
+          <h2 class="title">Find meals for your ingredients</h2>
+          <blockquote>
+            Real food don't have ingredients, real food are ingredients.<br />
+            <cite>- Jamie Oliver</cite>
+          </blockquote>
+
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="searchInput"
+            />
+            <button class="search-btn btn" id="searchBtn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <!--=============== MEAL RESULT ===============-->
+
+        <div class="meal-result">
+          <h2 class="title">Your Search Results:</h2>
+          <div id="meal">
+            <!-- <div class="meal-item">
+              <div class="meal-img">
+                <img src="" alt="food" />
+              </div>
+              <div class="meal-name">
+                <h3>Potato Chips</h3>
+                <a href="#" class="recipe-btn">Get Recipe</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+
+        <!--=============== RECIPE MODAL ===============-->
+
+        <div class="meal-details">
+          <button
+            type="button"
+            class="btn recipe-close-btn"
+            id="recipeCloseBtn"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+
+          <div class="meal-details-content">
+            <!-- <h2 class="recipe-title">Meals Name Here</h2>
+            <p class="recipe-category">Category Name</p>
+            <div class="recipe-instruct">
+              <h3>Instructions:</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Impedit laboriosam placeat dolorum, veritatis laudantium, ipsum
+                repudiandae sint sed consectetur illo blanditiis distinctio
+                sequi itaque magni a minus nobis iure unde quia eum expedita
+                eaque! Necessitatibus ipsum libero reprehenderit doloremque
+                nesciunt, quaerat quia ex modi, cum quisquam fuga a tempore
+                debitis culpa eligendi. Exercitationem quidem cumque laboriosam
+                qui doloribus aperiam odit facilis atque numquam accusantium
+                nisi saepe ducimus vel, dolor sed obcaecati adipisci aliquid
+                beatae porro iure? Deserunt velit aliquam, accusamus assumenda
+                quos eos laboriosam laborum inventore explicabo. Non libero
+                quisquam reiciendis deserunt doloremque ea exercitationem quasi
+                neque aliquid quaerat molestias dignissimos rem dicta incidunt
+                eligendi doloribus distinctio fuga unde, facilis esse omnis
+                commodi consequatur optio quod? 
+              </p>
+              <div class="recipe-meal-img">
+                <img src="" alt="food" />
+              </div>
+              <div class="recipe-link">
+                <a href="#" target="_blank">Watch Video</a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
